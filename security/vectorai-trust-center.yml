@@ -1,0 +1,18 @@
+generated: '2026-07-21'
+method: searched
+source: https://raft.ai/
+url: https://app.vanta.com/vector.ai/trust/48tz4oh7l86jduqim1rqsk
+provider: vanta
+certifications: []
+note: Raft (formerly Vector.ai) publishes a Vanta-hosted trust center, linked from the
+  raft.ai footer and the raft-documentation-portal page; the URL keeps the original
+  vector.ai identity. The page returns HTTP 200 but is a JavaScript application, so
+  named certifications could not be extracted without a browser; none are asserted
+  here.
+evidence:
+- source: https://raft.ai/
+  kind: footer-link
+  detail: Trust Center link to app.vanta.com/vector.ai/trust/48tz4oh7l86jduqim1rqsk
+- source: https://raft.ai/raft-documentation-portal
+  kind: compliance-hub
+  detail: Legal/compliance documentation hub referencing the Vanta trust platform (DPA, subprocessor lists)

@@ -1,7 +1,25 @@
 aid: vectorai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vectorai.png
 name: Vector.ai
-description: Vector.ai is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Vector.ai, now operating as Raft (raft.ai), is an AI-powered logistics
+  automation platform for freight forwarders, customs brokers, and trade finance
+  teams. The Raft Intelligence Engine layers organization data, contextual LLMs,
+  orchestration, and specialized governed agents to automate document processing,
+  invoice matching, data extraction, and exception handling across supply chain
+  operations, reporting 20M+ tasks completed by AI agents and 5M+ shipments
+  processed annually. Raft publishes no public developer API; the platform is an
+  enterprise application that integrates with customers' TMS and ERP systems.
 url: https://raw.githubusercontent.com/api-evangelist/vectorai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- Logistics
+- Freight Forwarding
+- Customs
+- Supply Chain
+- Automation
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +47,24 @@ maintainers:
 common:
 - type: Website
   url: https://raft.ai/
+- type: Blog
+  url: https://raft.ai/resources
+- type: Contact
+  url: https://raft.ai/contact
+- type: Login
+  url: https://app.raft.ai/auth/login
+- type: TermsOfService
+  url: https://raft.ai/terms-of-service
+- type: PrivacyPolicy
+  url: https://raft.ai/privacy
+- type: TrustCenter
+  url: security/vectorai-trust-center.yml
+- type: DomainSecurity
+  url: security/vectorai-domain-security.yml
+- type: LLMsTxt
+  url: llms/vectorai-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 4
+  pass: local-v1

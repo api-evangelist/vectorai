@@ -1,0 +1,31 @@
+# Vector.ai (Raft)
+
+> Vector.ai, now operating as Raft (raft.ai), is an AI-powered logistics automation
+> platform for freight forwarders, customs brokers, and trade finance teams. The Raft
+> Intelligence Engine combines organization data, contextual LLMs, orchestration, and
+> specialized governed agents to automate document processing, invoice matching, data
+> extraction, and exception handling across supply chain operations.
+
+Raft publishes no public developer API, API reference, or SDKs. The platform is sold
+as an enterprise application (app.raft.ai) that integrates with customers' TMS and
+ERP systems. Their documentation portal hosts legal and compliance documents rather
+than developer documentation.
+
+## Company
+
+- [Website](https://raft.ai/): Product marketing site for the Raft platform
+- [About](https://raft.ai/about-us): Company mission and background
+- [Platform](https://raft.ai/platform): The Raft Intelligence Engine (five-layer architecture)
+- [Resources](https://raft.ai/resources): Blog and resource library
+- [Contact](https://raft.ai/contact): Contact and demo requests
+
+## Legal and Trust
+
+- [Documentation Portal](https://raft.ai/raft-documentation-portal): Legal, DPA, and compliance documents
+- [Trust Center](https://app.vanta.com/vector.ai/trust/48tz4oh7l86jduqim1rqsk): Vanta-hosted trust center (published under the vector.ai identity)
+- [Terms of Service](https://raft.ai/terms-of-service)
+- [Privacy Policy](https://raft.ai/privacy)
+
+## API Evangelist Profile
+
+- [APIs.json](https://raw.githubusercontent.com/api-evangelist/vectorai/refs/heads/main/apis.yml): Machine-readable profile of this company

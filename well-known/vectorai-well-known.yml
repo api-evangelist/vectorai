@@ -1,0 +1,21 @@
+generated: '2026-07-21'
+method: searched
+source: live HTTP probes of https://raft.ai/
+host: https://raft.ai
+note: No /.well-known/ discovery surface published. All probes returned 404; absence
+  recorded as valid data. No raw files saved (nothing returned 200).
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /llms.txt
+  status: 404
+- path: /robots.txt
+  status: 200
